@@ -1,3 +1,2 @@
-FROM docker.io/manimcommunity/manim:v0.9.0
-
+FROM docker.io/manimcommunity/manim:latest
 COPY --chown=manimuser:manimuser . /manim
